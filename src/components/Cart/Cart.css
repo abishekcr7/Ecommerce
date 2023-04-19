@@ -1,0 +1,23 @@
+html,
+body {
+    height: 100%
+}
+
+
+.cartimage {
+    border: 2px solid #fff;
+    width: 30%;
+    height: 70px;
+    overflow: hidden
+}
+
+.cartimage img {
+    width: 50%;
+    height: 150;
+    transition: all 2s ease-in-out
+}
+
+.cartimage:hover img {
+    transform: scale(2, 2);
+    cursor: pointer
+}
